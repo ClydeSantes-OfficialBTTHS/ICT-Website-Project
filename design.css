@@ -1,0 +1,110 @@
+html > body {
+    font-family: 'Century Gothic';
+}
+
+@font-face {
+	font-family: "Altona Sans";
+	src: url('AltonaSans-Regular.ttf');
+}
+
+h1 {
+	font-family: "Altona Sans";
+}
+
+div {
+    margin-inline: auto;
+    width:90%;
+    text-align: center;
+    font-size:1.25rem;
+}
+
+div > h2 {
+	letter-spacing: 3rem;
+	font-size: 1.75rem;
+	margin: auto;
+	margin-bottom:2rem;
+	margin-top:2rem;
+	text-align: center;
+	width:32rem;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+hr {
+    margin-top:2rem;
+}
+
+.personal_section {
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align:left;
+    margin-top: 3.125rem;
+    width:90%;
+    font-size: 1.875rem;
+}
+
+.personal_section h1 {
+    margin-bottom: 1rem;
+}
+
+.personal_section p{
+    margin-bottom:auto;
+    margin-top:0.75rem;
+}
+
+.skills_section table {
+    margin: auto;
+	width:32rem;
+	border-spacing: 30px;
+	
+}
+
+.skills_section td {
+    text-align: center;
+    padding:2rem;
+    font-size:1.25rem;
+    font-weight:bold;
+}
+
+.skill_box {
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+	border-radius: 1.5rem;
+	position:relative;
+	
+	transition: 0.5s;
+}
+
+.skill_box img {
+	width: 12.5rem;
+	height: 12.5rem;
+	
+}
+
+.skill_box_overlay {
+	background-color: rgba(255, 255, 255, 0.9);
+	
+	width: 12.5rem;
+	height: 12.5rem;
+	
+	z-index: 1;
+	position:absolute;
+	
+	opacity: 0;
+	transition: 0.3s;
+}
+
+.skill_box_overlay h3 {
+	letter-spacing: 0;
+	font-size: 2rem;
+}
+
+.skill_box:hover {
+	transform:scale(1.1);
+}
+
+.skill_box_overlay:hover {
+	opacity: 1;
+}

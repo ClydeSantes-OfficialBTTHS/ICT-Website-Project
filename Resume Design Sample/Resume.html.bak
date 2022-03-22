@@ -1,0 +1,21 @@
+<html>
+	<head>
+<title>Resume Website</title>
+<link rel="stylesheet" type="text/css" href="Resume_Design.css">
+<link rel="icon" type="image/x-icon" href="Emoji.ico">
+		
+	</head>
+	
+	<body>
+		<div class="skill_box"
+			<a href="">
+			<div class="skill_box_overlay">
+				<h2>MS Office</h2>
+			</div>
+		
+			<img src="MS Office.png" width="200px height="200px">
+			</a>
+		</div>
+		
+	</body>
+</html>
